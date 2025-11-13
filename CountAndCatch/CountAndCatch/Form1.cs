@@ -12,9 +12,32 @@ namespace CountAndCatch
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
+            /*dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");
+            dataGridView1.Rows.Add("", "", "", "", "", "");*/
+            dataGridView1.Rows.Clear();
+
+
         }
+      
+
     }
 }

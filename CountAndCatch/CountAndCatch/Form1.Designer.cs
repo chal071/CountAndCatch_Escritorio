@@ -49,7 +49,7 @@
             this.btnImportar = new System.Windows.Forms.Button();
             this.btnRenombrar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.treeViewDirectory = new System.Windows.Forms.TreeView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -193,7 +193,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
-            this.panel1.Controls.Add(this.treeView1);
+            this.panel1.Controls.Add(this.treeViewDirectory);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button8);
@@ -266,12 +266,12 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
             // 
-            // treeView1
+            // treeViewDirectory
             // 
-            this.treeView1.Location = new System.Drawing.Point(14, 108);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(312, 442);
-            this.treeView1.TabIndex = 8;
+            this.treeViewDirectory.Location = new System.Drawing.Point(14, 108);
+            this.treeViewDirectory.Name = "treeViewDirectory";
+            this.treeViewDirectory.Size = new System.Drawing.Size(312, 442);
+            this.treeViewDirectory.TabIndex = 8;
             // 
             // Form1
             // 
@@ -320,7 +320,7 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnImportar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView treeViewDirectory;
     }
 }
 

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\usuario\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +30,8 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs",
-              "RelativeToolTip": "CountAndCatch\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs*",
+              "RelativeToolTip": "CountAndCatch\\Form1.cs*",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T00:05:13.3Z",
@@ -43,8 +43,8 @@
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "CountAndCatch\\Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T16:34:16.537Z",
               "EditorCaption": " [Dise\u00F1o]"

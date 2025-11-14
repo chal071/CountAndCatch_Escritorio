@@ -33,11 +33,21 @@ namespace CountAndCatch
             dataGridView1.Rows.Add("", "", "", "", "", "");
             dataGridView1.Rows.Add("", "", "", "", "", "");
             dataGridView1.Rows.Add("", "", "", "", "", "");*/
-            dataGridView1.Rows.Clear();
+            dgvResult.Rows.Clear();
 
+            
 
         }
-      
+       
 
+        private void cargarJson(string filePath)
+        {
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
+
 }

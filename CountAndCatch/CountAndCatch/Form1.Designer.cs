@@ -64,7 +64,7 @@
             this.panel2.Controls.Add(this.button1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1421, 82);
+            this.panel2.Size = new System.Drawing.Size(1421, 74);
             this.panel2.TabIndex = 1;
             // 
             // btnRenombrar
@@ -73,7 +73,7 @@
             this.btnRenombrar.FlatAppearance.BorderSize = 0;
             this.btnRenombrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRenombrar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRenombrar.Location = new System.Drawing.Point(618, 24);
+            this.btnRenombrar.Location = new System.Drawing.Point(618, 15);
             this.btnRenombrar.Name = "btnRenombrar";
             this.btnRenombrar.Size = new System.Drawing.Size(135, 39);
             this.btnRenombrar.TabIndex = 2;
@@ -86,7 +86,7 @@
             this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(418, 24);
+            this.btnEliminar.Location = new System.Drawing.Point(418, 15);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(135, 39);
             this.btnEliminar.TabIndex = 2;
@@ -99,7 +99,7 @@
             this.btnImportar.FlatAppearance.BorderSize = 0;
             this.btnImportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnImportar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImportar.Location = new System.Drawing.Point(220, 24);
+            this.btnImportar.Location = new System.Drawing.Point(220, 15);
             this.btnImportar.Name = "btnImportar";
             this.btnImportar.Size = new System.Drawing.Size(135, 39);
             this.btnImportar.TabIndex = 1;
@@ -112,7 +112,7 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(27, 24);
+            this.button1.Location = new System.Drawing.Point(27, 15);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 39);
             this.button1.TabIndex = 0;
@@ -125,9 +125,9 @@
             this.btnFiltrar.FlatAppearance.BorderSize = 0;
             this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFiltrar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.Location = new System.Drawing.Point(1253, 101);
+            this.btnFiltrar.Location = new System.Drawing.Point(1052, 83);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(135, 39);
+            this.btnFiltrar.Size = new System.Drawing.Size(117, 39);
             this.btnFiltrar.TabIndex = 2;
             this.btnFiltrar.Text = "Flitrar";
             this.btnFiltrar.UseVisualStyleBackColor = false;
@@ -138,7 +138,7 @@
             this.btnVer.FlatAppearance.BorderSize = 0;
             this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVer.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVer.Location = new System.Drawing.Point(651, 616);
+            this.btnVer.Location = new System.Drawing.Point(575, 553);
             this.btnVer.Name = "btnVer";
             this.btnVer.Size = new System.Drawing.Size(135, 39);
             this.btnVer.TabIndex = 3;
@@ -151,7 +151,7 @@
             this.btnExportar.FlatAppearance.BorderSize = 0;
             this.btnExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExportar.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportar.Location = new System.Drawing.Point(981, 616);
+            this.btnExportar.Location = new System.Drawing.Point(808, 553);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(135, 39);
             this.btnExportar.TabIndex = 4;
@@ -172,12 +172,12 @@
             this.Column5,
             this.Column6});
             this.dgvResult.GridColor = System.Drawing.Color.Gray;
-            this.dgvResult.Location = new System.Drawing.Point(376, 161);
+            this.dgvResult.Location = new System.Drawing.Point(339, 139);
             this.dgvResult.Name = "dgvResult";
             this.dgvResult.RowHeadersVisible = false;
             this.dgvResult.RowHeadersWidth = 51;
             this.dgvResult.RowTemplate.Height = 24;
-            this.dgvResult.Size = new System.Drawing.Size(1012, 428);
+            this.dgvResult.Size = new System.Drawing.Size(832, 373);
             this.dgvResult.TabIndex = 5;
             // 
             // Column1
@@ -218,9 +218,9 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(14, 26);
+            this.button8.Location = new System.Drawing.Point(14, 16);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(312, 43);
+            this.button8.Size = new System.Drawing.Size(277, 43);
             this.button8.TabIndex = 5;
             this.button8.Text = "button8";
             this.button8.UseVisualStyleBackColor = true;
@@ -228,17 +228,17 @@
             // txtBusqueda
             // 
             this.txtBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBusqueda.Location = new System.Drawing.Point(70, 38);
+            this.txtBusqueda.Location = new System.Drawing.Point(63, 28);
             this.txtBusqueda.Multiline = true;
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(243, 20);
+            this.txtBusqueda.Size = new System.Drawing.Size(224, 20);
             this.txtBusqueda.TabIndex = 6;
             // 
             // pbBusqueda
             // 
             this.pbBusqueda.BackColor = System.Drawing.Color.White;
             this.pbBusqueda.Image = ((System.Drawing.Image)(resources.GetObject("pbBusqueda.Image")));
-            this.pbBusqueda.Location = new System.Drawing.Point(27, 34);
+            this.pbBusqueda.Location = new System.Drawing.Point(27, 22);
             this.pbBusqueda.Name = "pbBusqueda";
             this.pbBusqueda.Size = new System.Drawing.Size(37, 26);
             this.pbBusqueda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -252,23 +252,24 @@
             this.panelDirectory.Controls.Add(this.pbBusqueda);
             this.panelDirectory.Controls.Add(this.txtBusqueda);
             this.panelDirectory.Controls.Add(this.button8);
-            this.panelDirectory.Location = new System.Drawing.Point(0, 80);
+            this.panelDirectory.Location = new System.Drawing.Point(0, 74);
             this.panelDirectory.Name = "panelDirectory";
-            this.panelDirectory.Size = new System.Drawing.Size(342, 675);
+            this.panelDirectory.Size = new System.Drawing.Size(311, 566);
             this.panelDirectory.TabIndex = 0;
             // 
             // tvDirectory
             // 
-            this.tvDirectory.Location = new System.Drawing.Point(14, 108);
+            this.tvDirectory.Location = new System.Drawing.Point(14, 78);
             this.tvDirectory.Name = "tvDirectory";
-            this.tvDirectory.Size = new System.Drawing.Size(312, 482);
+            this.tvDirectory.Size = new System.Drawing.Size(277, 440);
             this.tvDirectory.TabIndex = 8;
+            this.tvDirectory.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvDirectory_AfterSelect);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1420, 757);
+            this.ClientSize = new System.Drawing.Size(1204, 632);
             this.Controls.Add(this.dgvResult);
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.btnVer);
@@ -276,11 +277,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelDirectory);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Count & Catch";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();

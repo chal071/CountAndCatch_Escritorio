@@ -44,7 +44,6 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button8 = new System.Windows.Forms.Button();
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.pbBusqueda = new System.Windows.Forms.PictureBox();
             this.panelDirectory = new System.Windows.Forms.Panel();
@@ -58,6 +57,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(208)))));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btnRenombrar);
             this.panel2.Controls.Add(this.btnEliminar);
             this.panel2.Controls.Add(this.btnImportar);
@@ -216,34 +216,27 @@
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(14, 16);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(277, 43);
-            this.button8.TabIndex = 5;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
             // txtBusqueda
             // 
             this.txtBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBusqueda.Location = new System.Drawing.Point(63, 28);
+            this.txtBusqueda.Location = new System.Drawing.Point(14, 19);
             this.txtBusqueda.Multiline = true;
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(224, 20);
+            this.txtBusqueda.Size = new System.Drawing.Size(277, 43);
             this.txtBusqueda.TabIndex = 6;
             // 
             // pbBusqueda
             // 
             this.pbBusqueda.BackColor = System.Drawing.Color.White;
+            this.pbBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbBusqueda.Image = ((System.Drawing.Image)(resources.GetObject("pbBusqueda.Image")));
-            this.pbBusqueda.Location = new System.Drawing.Point(27, 22);
+            this.pbBusqueda.Location = new System.Drawing.Point(17, 21);
             this.pbBusqueda.Name = "pbBusqueda";
-            this.pbBusqueda.Size = new System.Drawing.Size(37, 26);
+            this.pbBusqueda.Size = new System.Drawing.Size(43, 40);
             this.pbBusqueda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbBusqueda.TabIndex = 7;
             this.pbBusqueda.TabStop = false;
+            this.pbBusqueda.Click += new System.EventHandler(this.pbBusqueda_Click);
             // 
             // panelDirectory
             // 
@@ -251,7 +244,6 @@
             this.panelDirectory.Controls.Add(this.tvDirectory);
             this.panelDirectory.Controls.Add(this.pbBusqueda);
             this.panelDirectory.Controls.Add(this.txtBusqueda);
-            this.panelDirectory.Controls.Add(this.button8);
             this.panelDirectory.Location = new System.Drawing.Point(0, 74);
             this.panelDirectory.Name = "panelDirectory";
             this.panelDirectory.Size = new System.Drawing.Size(311, 566);
@@ -308,7 +300,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox txtBusqueda;
         private System.Windows.Forms.PictureBox pbBusqueda;
         private System.Windows.Forms.Panel panelDirectory;

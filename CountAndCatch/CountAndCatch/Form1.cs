@@ -101,6 +101,11 @@ namespace CountAndCatch
 
 
         }
+
+        private void pbBusqueda_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

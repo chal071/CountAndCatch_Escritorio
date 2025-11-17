@@ -20,3 +20,4 @@ D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCa
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.csproj.CoreCompileInputs.cache
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.exe
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.pdb
+D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.DgRenombrar.resources

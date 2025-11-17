@@ -106,6 +106,12 @@ namespace CountAndCatch
         {
 
         }
+
+        private void btnRenombrar_Click(object sender, EventArgs e)
+        {
+            DgRenombrar dialog = new DgRenombrar();
+            dialog.ShowDialog();
+        }
     }
 
 }

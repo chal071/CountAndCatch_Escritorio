@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnRenombrar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -44,13 +43,10 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtBusqueda = new System.Windows.Forms.TextBox();
-            this.pbBusqueda = new System.Windows.Forms.PictureBox();
             this.panelDirectory = new System.Windows.Forms.Panel();
             this.tvDirectory = new System.Windows.Forms.TreeView();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBusqueda)).BeginInit();
             this.panelDirectory.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,6 +75,7 @@
             this.btnRenombrar.TabIndex = 2;
             this.btnRenombrar.Text = "Renombrar";
             this.btnRenombrar.UseVisualStyleBackColor = false;
+            this.btnRenombrar.Click += new System.EventHandler(this.btnRenombrar_Click);
             // 
             // btnEliminar
             // 
@@ -216,34 +213,10 @@
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             // 
-            // txtBusqueda
-            // 
-            this.txtBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBusqueda.Location = new System.Drawing.Point(14, 19);
-            this.txtBusqueda.Multiline = true;
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(277, 43);
-            this.txtBusqueda.TabIndex = 6;
-            // 
-            // pbBusqueda
-            // 
-            this.pbBusqueda.BackColor = System.Drawing.Color.White;
-            this.pbBusqueda.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pbBusqueda.Image = ((System.Drawing.Image)(resources.GetObject("pbBusqueda.Image")));
-            this.pbBusqueda.Location = new System.Drawing.Point(17, 21);
-            this.pbBusqueda.Name = "pbBusqueda";
-            this.pbBusqueda.Size = new System.Drawing.Size(43, 40);
-            this.pbBusqueda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbBusqueda.TabIndex = 7;
-            this.pbBusqueda.TabStop = false;
-            this.pbBusqueda.Click += new System.EventHandler(this.pbBusqueda_Click);
-            // 
             // panelDirectory
             // 
             this.panelDirectory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
             this.panelDirectory.Controls.Add(this.tvDirectory);
-            this.panelDirectory.Controls.Add(this.pbBusqueda);
-            this.panelDirectory.Controls.Add(this.txtBusqueda);
             this.panelDirectory.Location = new System.Drawing.Point(0, 74);
             this.panelDirectory.Name = "panelDirectory";
             this.panelDirectory.Size = new System.Drawing.Size(311, 566);
@@ -251,9 +224,9 @@
             // 
             // tvDirectory
             // 
-            this.tvDirectory.Location = new System.Drawing.Point(14, 78);
+            this.tvDirectory.Location = new System.Drawing.Point(12, 29);
             this.tvDirectory.Name = "tvDirectory";
-            this.tvDirectory.Size = new System.Drawing.Size(277, 440);
+            this.tvDirectory.Size = new System.Drawing.Size(281, 479);
             this.tvDirectory.TabIndex = 8;
             this.tvDirectory.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvDirectory_AfterSelect);
             // 
@@ -277,9 +250,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBusqueda)).EndInit();
             this.panelDirectory.ResumeLayout(false);
-            this.panelDirectory.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -300,8 +271,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.TextBox txtBusqueda;
-        private System.Windows.Forms.PictureBox pbBusqueda;
         private System.Windows.Forms.Panel panelDirectory;
         private System.Windows.Forms.TreeView tvDirectory;
     }

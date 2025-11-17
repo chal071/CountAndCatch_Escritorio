@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\Form1.cs",
               "ToolTip": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Form1.cs",
               "RelativeToolTip": "CountAndCatch\\Form1.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowF0AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T00:05:13.3Z",
               "IsPinned": true,
@@ -62,6 +66,17 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DgRenombrar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\DgRenombrar.cs",
+              "ToolTip": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:29:07.107Z"
             }
           ]
         }

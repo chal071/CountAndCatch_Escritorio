@@ -46,18 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DgEliminarArchivo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DgEliminarArchivo.Designer.cs">
-      <DependentUpon>DgEliminarArchivo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DgRenombrar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DgRenombrar.Designer.cs">
-      <DependentUpon>DgRenombrar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,12 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DgEliminarArchivo.resx">
-      <DependentUpon>DgEliminarArchivo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DgRenombrar.resx">
-      <DependentUpon>DgRenombrar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

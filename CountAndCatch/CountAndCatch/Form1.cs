@@ -61,6 +61,12 @@ namespace CountAndCatch
             TreeNode root = new TreeNode("Directorio de datos") { Tag = "root"};
             tvDirectory.Nodes.Add(root);
 
+            TreeNode byName = new TreeNode(" Orden por nombre");
+            tvDirectory.Nodes.Add(byName);
+
+            TreeNode byDate = new TreeNode("Orden por fecha ");
+            tvDirectory.Nodes.Add(byDate);
+
 
             TreeNode functionNode = new TreeNode("Zona de funciones");
             root.Nodes.Add(functionNode);
@@ -94,20 +100,6 @@ namespace CountAndCatch
 
 
 
-        }
-
-      
-
-        private void btnRenombrar_Click(object sender, EventArgs e)
-        {
-            DgRenombrar dialog = new DgRenombrar();
-            dialog.ShowDialog();
-        }
-
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
-            DgEliminarArchivo dialog = new DgEliminarArchivo();
-            dialog.ShowDialog();
         }
     }
 

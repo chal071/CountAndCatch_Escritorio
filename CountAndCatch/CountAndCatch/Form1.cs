@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -100,14 +101,47 @@ namespace CountAndCatch
 
         private void btnRenombrar_Click(object sender, EventArgs e)
         {
+
+            if (dgvResult.SelectedRows.Count == 0)
+            {
+                MessageBox.Show(
+                    "Tienes que elegir un archivo para renombrar",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                );
+                return;
+            }
+
+            string selectedFile = dgvResult.SelectedRows[0].Cells[0].Value.ToString();
+
+          
             DgRenombrar dialog = new DgRenombrar();
             dialog.ShowDialog();
+           
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             DgEliminarArchivo dialog = new DgEliminarArchivo();
             dialog.ShowDialog();
+        }
+
+        private void btnImportar_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Title = "Elegir archivo";
+            dialog.Filter = "Archivos de texto|*.txt;*.log|Todos los archivos|*.*";
+
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = dialog.FileName;
+                string text = File.ReadAllText(filePath);
+
+                MessageBox.Show("El archivo ha sido importado：" + filePath);
+
+
+            }
         }
     }
 

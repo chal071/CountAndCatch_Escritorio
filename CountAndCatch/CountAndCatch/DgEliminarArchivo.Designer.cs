@@ -36,9 +36,9 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Calibri", 18F);
-            this.label1.Location = new System.Drawing.Point(91, 47);
+            this.label1.Location = new System.Drawing.Point(70, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 119);
+            this.label1.Size = new System.Drawing.Size(323, 97);
             this.label1.TabIndex = 2;
             this.label1.Text = "¿Estás segura de quieres eliminar este archivo?";
             // 
@@ -47,8 +47,8 @@
             this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
             this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Location = new System.Drawing.Point(146, 196);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(60, 55);
@@ -61,8 +61,8 @@
             this.btnNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
             this.btnNo.FlatAppearance.BorderSize = 0;
             this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNo.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNo.ForeColor = System.Drawing.Color.White;
+            this.btnNo.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNo.ForeColor = System.Drawing.Color.Black;
             this.btnNo.Location = new System.Drawing.Point(249, 196);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(60, 55);
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(208)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(490, 331);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnGuardar);

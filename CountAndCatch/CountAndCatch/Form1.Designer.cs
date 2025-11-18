@@ -53,7 +53,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(208)))));
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.btnRenombrar);
             this.panel2.Controls.Add(this.btnEliminar);
             this.panel2.Controls.Add(this.btnImportar);
@@ -103,6 +102,7 @@
             this.btnImportar.TabIndex = 1;
             this.btnImportar.Text = "Importar JSON";
             this.btnImportar.UseVisualStyleBackColor = false;
+            this.btnImportar.Click += new System.EventHandler(this.btnImportar_Click);
             // 
             // button1
             // 

@@ -56,20 +56,21 @@
             this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
             this.btnGuardar.FlatAppearance.BorderSize = 0;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Location = new System.Drawing.Point(142, 216);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(185, 54);
             this.btnGuardar.TabIndex = 5;
-            this.btnGuardar.Text = "GUARDAR";
+            this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // DgRenombrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(208)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.ClientSize = new System.Drawing.Size(490, 331);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label1);
@@ -78,6 +79,7 @@
             this.Name = "DgRenombrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Renombrar";
+            this.Load += new System.EventHandler(this.DgRenombrar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,6 +1,6 @@
 ﻿namespace CountAndCatch
 {
-    partial class DgRenombrar
+    partial class DgEliminarArchivo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,28 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnNo = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(61, 113);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(346, 61);
-            this.txtNombre.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 15F);
-            this.label1.Location = new System.Drawing.Point(108, 59);
+            this.label1.Font = new System.Drawing.Font("Calibri", 18F);
+            this.label1.Location = new System.Drawing.Point(91, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(258, 31);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Poner el nombre nuevo:";
+            this.label1.Size = new System.Drawing.Size(294, 119);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "¿Estás segura de quieres eliminar este archivo?";
             // 
             // btnGuardar
             // 
@@ -58,35 +49,47 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar.Location = new System.Drawing.Point(142, 216);
+            this.btnGuardar.Location = new System.Drawing.Point(146, 196);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(185, 54);
-            this.btnGuardar.TabIndex = 5;
-            this.btnGuardar.Text = "GUARDAR";
+            this.btnGuardar.Size = new System.Drawing.Size(60, 55);
+            this.btnGuardar.TabIndex = 6;
+            this.btnGuardar.Text = "SÍ";
             this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // DgRenombrar
+            // btnNo
+            // 
+            this.btnNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(173)))), ((int)(((byte)(242)))));
+            this.btnNo.FlatAppearance.BorderSize = 0;
+            this.btnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNo.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNo.ForeColor = System.Drawing.Color.White;
+            this.btnNo.Location = new System.Drawing.Point(249, 196);
+            this.btnNo.Name = "btnNo";
+            this.btnNo.Size = new System.Drawing.Size(60, 55);
+            this.btnNo.TabIndex = 7;
+            this.btnNo.Text = "NO";
+            this.btnNo.UseVisualStyleBackColor = false;
+            // 
+            // DgEliminarArchivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(208)))));
             this.ClientSize = new System.Drawing.Size(490, 331);
+            this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtNombre);
-            this.MaximizeBox = false;
-            this.Name = "DgRenombrar";
+            this.Name = "DgEliminarArchivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Renombrar";
+            this.Text = "EliminarArchivo";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnNo;
     }
 }

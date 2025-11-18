@@ -21,3 +21,4 @@ D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCa
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.exe
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.pdb
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.DgRenombrar.resources
+D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.DgEliminarArchivo.resources

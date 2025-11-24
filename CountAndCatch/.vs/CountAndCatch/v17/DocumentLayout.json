@@ -1,22 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\",
+  "WorkspaceRootPath": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|d:\\git\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgeliminararchivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgeliminararchivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\dgeliminararchivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +31,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "DocumentMoniker": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "ToolTip": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
               "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAEwHYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "DocumentMoniker": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T16:34:16.537Z",
@@ -57,43 +56,38 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DgEliminarArchivo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgEliminarArchivo.cs",
+              "DocumentMoniker": "D:\\GIT\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgEliminarArchivo.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\DgEliminarArchivo.cs",
               "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgEliminarArchivo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\DgEliminarArchivo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:59:13.389Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-17T15:59:13.389Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "DgRenombrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs",
-              "RelativeDocumentMoniker": "CountAndCatch\\DgRenombrar.cs",
               "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:29:07.107Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-17T15:29:07.107Z"
             }
           ]
         }

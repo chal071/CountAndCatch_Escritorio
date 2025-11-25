@@ -14,11 +14,13 @@ D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\CountAndCa
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\CountAndCatch.pdb
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.csproj.AssemblyReference.cache
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.exe.config
+D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.Form1.resources
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.Properties.Resources.resources
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.csproj.GenerateResource.cache
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.csproj.CoreCompileInputs.cache
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.exe
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.pdb
+D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.DgRenombrar.resources
 D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.DgEliminarArchivo.resources
 C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\CountAndCatch.exe.config
 C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\CountAndCatch.exe
@@ -36,8 +38,3 @@ C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndC
 C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\Newtonsoft.Json.dll
 C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\Newtonsoft.Json.xml
 C:\Users\chaox\Documents\GitHub\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAnd.7727ECE1.Up2Date
-D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\Newtonsoft.Json.dll
-D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\bin\Debug\Newtonsoft.Json.xml
-D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.FormRenombrar.resources
-D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAndCatch.FormPrincipal.resources
-D:\GIT\CountAndCatch_Escritorio\CountAndCatch\CountAndCatch\obj\Debug\CountAnd.7727ECE1.Up2Date

@@ -81,19 +81,19 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -105,6 +105,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bginicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRenombrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRenombrarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAbrirDirectorio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnImporta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAbrirDirectorioHover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEliminarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnImportaHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnGuardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnGuardarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFiltrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFiltrarHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgCat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageCat.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

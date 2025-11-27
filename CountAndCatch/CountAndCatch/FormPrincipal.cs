@@ -43,6 +43,8 @@ namespace CountAndCatch
             listViewFiles.Columns[2].Width = (int)(w * 0.4); 
         }
 
+        
+
         private void buttonDirecoty_Click(object sender, EventArgs e)
         {
             using (var dialog = new FolderBrowserDialog())
@@ -159,6 +161,66 @@ namespace CountAndCatch
             string json = File.ReadAllText(ruta);
 
             return JsonConvert.DeserializeObject<List<Partida>>(json);
+        }
+
+        private void buttonDirecoty_MouseHover(object sender, EventArgs e)
+        {
+            buttonDirecoty.BackgroundImage = Properties.Resources.btnAbrirDirectorioHover;
+        }
+
+        private void buttonDirecoty_MouseLeave(object sender, EventArgs e)
+        {
+            buttonDirecoty.BackgroundImage = Properties.Resources.btnAbrirDirectorio;
+        }
+
+        private void buttonRenombrar_MouseHover(object sender, EventArgs e)
+        {
+            buttonRenombrar.BackgroundImage = Properties.Resources.btnRenombrarHover;
+        }
+
+        private void buttonRenombrar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonRenombrar.BackgroundImage = Properties.Resources.btnRenombrar;
+        }
+
+        private void buttonJson_MouseHover(object sender, EventArgs e)
+        {
+            buttonJson.BackgroundImage = Properties.Resources.btnImportaHover;
+        }
+
+        private void buttonJson_MouseLeave(object sender, EventArgs e)
+        {
+            buttonJson.BackgroundImage = Properties.Resources.btnImporta;
+        }
+
+        private void buttonEliminar_MouseHover(object sender, EventArgs e)
+        {
+            buttonEliminar.BackgroundImage = Properties.Resources.btnEliminarHover;
+        }
+
+        private void buttonEliminar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonEliminar.BackgroundImage = Properties.Resources.btnEliminar;
+        }
+
+        private void buttonFiltrar_MouseHover(object sender, EventArgs e)
+        {
+            buttonFiltrar.BackgroundImage = Properties.Resources.btnFiltrarHover;
+        }
+
+        private void buttonFiltrar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonFiltrar.BackgroundImage = Properties.Resources.btnFiltrar;
+        }
+
+        private void buttonExportar_MouseHover(object sender, EventArgs e)
+        {
+            buttonExportar.BackgroundImage = Properties.Resources.btnGuardarHover;
+        }
+
+        private void buttonExportar_MouseLeave(object sender, EventArgs e)
+        {
+            buttonExportar.BackgroundImage = Properties.Resources.btnGuardar;
         }
     }
 

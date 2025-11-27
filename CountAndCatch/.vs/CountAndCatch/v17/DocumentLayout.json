@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgeliminararchivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\dgeliminararchivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\dgrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
-              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAEwHYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T00:05:13.3Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:34:16.537Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -73,26 +34,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DgEliminarArchivo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgEliminarArchivo.cs",
-              "RelativeDocumentMoniker": "CountAndCatch\\DgEliminarArchivo.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgEliminarArchivo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\DgEliminarArchivo.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:59:13.389Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DgRenombrar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs",
-              "RelativeDocumentMoniker": "CountAndCatch\\DgRenombrar.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CountAndCatch\\DgRenombrar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:29:07.107Z",
+              "WhenOpened": "2025-11-27T16:57:56.237Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

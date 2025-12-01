@@ -18,12 +18,14 @@ namespace CountAndCatch
 
     public partial class FormPrincipal : Form
     {
-        private string currentDirectory = "";
+        private string currentDirectory;
+        private string currentJsonPath;
 
         public FormPrincipal()
         {
             InitializeComponent();
             ConfigurarListView();
+            ConfigurarGridUsuarios();
         }
 
         private void ConfigurarListView()
@@ -61,107 +63,214 @@ namespace CountAndCatch
 
         private void buttonJson_Click(object sender, EventArgs e)
         {
-            if (listViewFiles.SelectedItems.Count == 0)
+            if (listViewFiles.SelectedItems.Count > 0)
+            {
+                var item = listViewFiles.SelectedItems[0];
+                string ruta = item.Tag.ToString();
+                currentJsonPath = ruta;
+
+                var lista = CargarJson(ruta);
+
+                if (lista != null)
+                {
+                    dataGridViewJson.DataSource = lista;
+                }
+            }
+            else
             {
                 MessageBox.Show("Elegir un archivo Json");
-                return;
             }
-
-            var item = listViewFiles.SelectedItems[0];
-            string ruta = item.Tag.ToString();
-
-            var lista = CargarJson(ruta);
-
-            dataGridViewJson.DataSource = lista;
         }
+
 
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
-            if (listViewFiles.SelectedItems.Count == 0) return;
-
-            var item = listViewFiles.SelectedItems[0];
-            var fullPath = item.Tag.ToString();
-
-            if (File.Exists(fullPath))
+            if (listViewFiles.SelectedItems.Count > 0)
             {
-                File.Delete(fullPath);
-                LoadFiles();
+                var item = listViewFiles.SelectedItems[0];
+                var fullPath = item.Tag.ToString();
+
+                if (File.Exists(fullPath))
+                {
+                    File.Delete(fullPath);
+                    LoadFiles();
+                }
             }
         }
+
 
         private void buttonRenombrar_Click(object sender, EventArgs e)
         {
-            if (listViewFiles.SelectedItems.Count == 0) return;
-
-            var item = listViewFiles.SelectedItems[0];
-            var oldPath = item.Tag.ToString();
-            var oldName = Path.GetFileName(oldPath);
-
-            using (var dlg = new FormRenombrar(oldName))
+            if (listViewFiles.SelectedItems.Count > 0)
             {
-                if (dlg.ShowDialog() != DialogResult.OK)
-                    return;
+                var item = listViewFiles.SelectedItems[0];
+                var oldPath = item.Tag.ToString();
+                var oldName = Path.GetFileName(oldPath);
 
-                string newName = dlg.NuevoNombre;
-                if (string.IsNullOrWhiteSpace(newName) || newName == oldName)
-                    return;
-
-                var newPath = Path.Combine(currentDirectory, newName);
-
-                try
+                using (var dlg = new FormRenombrar(oldName))
                 {
-                    File.Move(oldPath, newPath);
-                    LoadFiles();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Fail to rename: " + ex.Message);
+                    DialogResult result = dlg.ShowDialog();
+
+                    if (result == DialogResult.OK)
+                    {
+                        string newName = dlg.NuevoNombre;
+
+                        if (!string.IsNullOrWhiteSpace(newName) && newName != oldName)
+                        {
+                            var newPath = Path.Combine(currentDirectory, newName);
+
+                            try
+                            {
+                                File.Move(oldPath, newPath);
+                                LoadFiles();
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show("Fail to rename: " + ex.Message);
+                            }
+                        }
+                    }
                 }
             }
         }
+
 
         private void LoadFiles()
         {
             listViewFiles.Items.Clear();
 
-            if (!Directory.Exists(currentDirectory)) return;
-
-            var files = Directory.GetFiles(currentDirectory);
-
-            foreach (var f in files)
+            if (Directory.Exists(currentDirectory))
             {
-                FileInfo info = new FileInfo(f);
-                long size = info.Length;
-                string sizeText;
+                var files = Directory.GetFiles(currentDirectory, "*.json");
 
-                if (size < 1024)
+                if (files.Length == 0)
                 {
-                    sizeText = size + " B";
+                    MessageBox.Show(
+                        "Esta carpeta no contiene ningún archivo JSON.",
+                        "Información",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                 }
                 else
                 {
-                    double kb = size / 1024.0;
-                    sizeText = kb.ToString("0.0") + " KB";
+                    foreach (var f in files)
+                    {
+                        FileInfo info = new FileInfo(f);
+                        long size = info.Length;
+                        string sizeText;
+
+                        if (size < 1024)
+                        {
+                            sizeText = size + " B";
+                        }
+                        else
+                        {
+                            double kb = size / 1024.0;
+                            sizeText = kb.ToString("0.0") + " KB";
+                        }
+
+                        var item = new ListViewItem(info.Name);
+                        item.SubItems.Add(sizeText);
+                        item.SubItems.Add(info.LastWriteTime.ToString("dd/MM/yyyy"));
+                        item.Tag = f;
+
+                        listViewFiles.Items.Add(item);
+                    }
                 }
-
-                var item = new ListViewItem(info.Name);
-                item.SubItems.Add(sizeText);
-                item.SubItems.Add(info.LastWriteTime.ToString("dd/MM/yyyy"));
-
-                item.Tag = f;
-
-                listViewFiles.Items.Add(item);
             }
         }
+
+
         private List<Partida> CargarJson(string ruta)
         {
-            if (!File.Exists(ruta))
-                return new List<Partida>();
+            List<Partida> resultado = null;
 
-            string json = File.ReadAllText(ruta);
+            try
+            {
+                string json = File.ReadAllText(ruta);
+                var lista = JsonConvert.DeserializeObject<List<Partida>>(json);
 
-            return JsonConvert.DeserializeObject<List<Partida>>(json);
+                bool esListaValida = lista != null && lista.Count > 0;
+
+                if (esListaValida)
+                {
+                    bool camposInvalidos = lista.Any(p => p.nombre == null || p.fecha == null);
+
+                    if (!camposInvalidos)
+                    {
+                        resultado = lista;
+                    }
+                    else
+                    {
+                        MessageBox.Show(
+                            "Faltan campos obligatorios en el archivo JSON.",
+                            "Error de formato",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(
+                        "La lista de partidas está vacía.",
+                        "Error de formato",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(
+                    "Este archivo JSON no tiene el formato esperado de 'Partida'.",
+                    "Error de formato",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+
+            return resultado;
         }
+
+
+        private void ConfigurarGridUsuarios()
+        {
+            var lst = dataGridViewJson;
+
+            lst.BorderStyle = BorderStyle.None;
+            lst.BackgroundColor = Color.White;
+            lst.GridColor = Color.FromArgb(230, 230, 230);
+            lst.RowTemplate.Height = 28;
+            lst.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(245, 245, 245);
+            lst.DefaultCellStyle.Font = new Font("Segoe UI", 10F);
+            lst.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            lst.EnableHeadersVisualStyles = false;
+            lst.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(240, 240, 240);
+            lst.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            lst.DefaultCellStyle.SelectionBackColor = Color.FromArgb(51, 153, 255);
+            lst.DefaultCellStyle.SelectionForeColor = Color.White;
+            lst.RowHeadersVisible = false;
+            lst.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+        }
+        private void buttonExportar_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(currentJsonPath))
+            {
+                var lista = dataGridViewJson.DataSource as List<Partida>;
+
+                if (lista != null)
+                {
+                    string json = JsonConvert.SerializeObject(lista, Formatting.Indented);
+                    File.WriteAllText(currentJsonPath, json);
+
+                    MessageBox.Show("JSON guardado correctamente.");
+                }
+                else
+                {
+                    MessageBox.Show("No se puede leer los datos del grid.");
+                }
+            }
+        }
+
 
         private void buttonDirecoty_MouseHover(object sender, EventArgs e)
         {
@@ -222,6 +331,8 @@ namespace CountAndCatch
         {
             buttonExportar.BackgroundImage = Properties.Resources.btnGuardar;
         }
+
+
     }
 
 }

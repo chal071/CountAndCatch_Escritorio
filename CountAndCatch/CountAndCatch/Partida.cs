@@ -9,6 +9,7 @@ namespace CountAndCatch
     public class Partida
     {
         public string nombre { get; set; }
+        public int edad { get; set; }
         public int tiempo_partida { get; set; }
         public int errores { get; set; }
         public int puntos { get; set; }

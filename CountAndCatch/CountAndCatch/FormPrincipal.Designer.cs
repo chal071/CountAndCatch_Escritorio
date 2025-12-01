@@ -228,6 +228,7 @@
             this.buttonExportar.Size = new System.Drawing.Size(240, 101);
             this.buttonExportar.TabIndex = 8;
             this.buttonExportar.UseVisualStyleBackColor = false;
+            this.buttonExportar.Click += new System.EventHandler(this.buttonExportar_Click);
             this.buttonExportar.MouseLeave += new System.EventHandler(this.buttonExportar_MouseLeave);
             this.buttonExportar.MouseHover += new System.EventHandler(this.buttonExportar_MouseHover);
             // 

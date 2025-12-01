@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Partida.cs",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Partida.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\Partida.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Partida.cs",
+              "RelativeToolTip": "CountAndCatch\\Partida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T12:31:15.018Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -35,6 +57,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAA4BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T12:21:21.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",

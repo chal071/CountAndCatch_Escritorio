@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DgEliminarArchivo.cs">
+    <Compile Include="FormFiltrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DgEliminarArchivo.Designer.cs">
-      <DependentUpon>DgEliminarArchivo.cs</DependentUpon>
+    <Compile Include="FormFiltrar.Designer.cs">
+      <DependentUpon>FormFiltrar.cs</DependentUpon>
     </Compile>
     <Compile Include="FormRenombrar.cs">
       <SubType>Form</SubType>
@@ -70,8 +70,8 @@
     <Compile Include="Partida.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DgEliminarArchivo.resx">
-      <DependentUpon>DgEliminarArchivo.cs</DependentUpon>
+    <EmbeddedResource Include="FormFiltrar.resx">
+      <DependentUpon>FormFiltrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRenombrar.resx">
       <DependentUpon>FormRenombrar.cs</DependentUpon>
@@ -153,6 +153,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imageCat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcatch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcount_noclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcatch_noclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFacil_noclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDificil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDificil_noclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIntermedio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIntermedio_noclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnQuitarFiltro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAceptarFiltro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnFacil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAceptar_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnQuitarFiltro_hover.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

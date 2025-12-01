@@ -63,6 +63,46 @@ namespace CountAndCatch.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgcatch {
+            get {
+                object obj = ResourceManager.GetObject("bgcatch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgcatch_noclick {
+            get {
+                object obj = ResourceManager.GetObject("bgcatch_noclick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgcount {
+            get {
+                object obj = ResourceManager.GetObject("bgcount", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgcount_noclick {
+            get {
+                object obj = ResourceManager.GetObject("bgcount_noclick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bginicio {
             get {
                 object obj = ResourceManager.GetObject("bginicio", resourceCulture);
@@ -93,6 +133,56 @@ namespace CountAndCatch.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnAceptar {
+            get {
+                object obj = ResourceManager.GetObject("btnAceptar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAceptar_hover {
+            get {
+                object obj = ResourceManager.GetObject("btnAceptar_hover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnAceptarFiltro {
+            get {
+                object obj = ResourceManager.GetObject("btnAceptarFiltro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnDificil {
+            get {
+                object obj = ResourceManager.GetObject("btnDificil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnDificil_noclick {
+            get {
+                object obj = ResourceManager.GetObject("btnDificil_noclick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnEliminar {
             get {
                 object obj = ResourceManager.GetObject("btnEliminar", resourceCulture);
@@ -106,6 +196,26 @@ namespace CountAndCatch.Properties {
         internal static System.Drawing.Bitmap btnEliminarHover {
             get {
                 object obj = ResourceManager.GetObject("btnEliminarHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnFacil {
+            get {
+                object obj = ResourceManager.GetObject("btnFacil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnFacil_noclick {
+            get {
+                object obj = ResourceManager.GetObject("btnFacil_noclick", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +276,46 @@ namespace CountAndCatch.Properties {
         internal static System.Drawing.Bitmap btnImportaHover {
             get {
                 object obj = ResourceManager.GetObject("btnImportaHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnIntermedio {
+            get {
+                object obj = ResourceManager.GetObject("btnIntermedio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnIntermedio_noclick {
+            get {
+                object obj = ResourceManager.GetObject("btnIntermedio_noclick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnQuitarFiltro {
+            get {
+                object obj = ResourceManager.GetObject("btnQuitarFiltro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnQuitarFiltro_hover {
+            get {
+                object obj = ResourceManager.GetObject("btnQuitarFiltro_hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

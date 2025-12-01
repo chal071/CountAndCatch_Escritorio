@@ -208,6 +208,7 @@
             this.buttonFiltrar.Size = new System.Drawing.Size(240, 98);
             this.buttonFiltrar.TabIndex = 7;
             this.buttonFiltrar.UseVisualStyleBackColor = false;
+            this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
             this.buttonFiltrar.MouseLeave += new System.EventHandler(this.buttonFiltrar_MouseLeave);
             this.buttonFiltrar.MouseHover += new System.EventHandler(this.buttonFiltrar_MouseHover);
             // 

@@ -20,6 +20,7 @@ namespace CountAndCatch
     {
         private string currentDirectory;
         private string currentJsonPath;
+        private List<Partida> listaOriginal;
 
         public FormPrincipal()
         {
@@ -73,7 +74,8 @@ namespace CountAndCatch
 
                 if (lista != null)
                 {
-                    dataGridViewJson.DataSource = lista;
+                    listaOriginal = lista;
+                    dataGridViewJson.DataSource = new List<Partida>(listaOriginal);
                 }
             }
             else
@@ -81,6 +83,7 @@ namespace CountAndCatch
                 MessageBox.Show("Elegir un archivo Json");
             }
         }
+
 
 
         private void buttonEliminar_Click(object sender, EventArgs e)
@@ -92,11 +95,31 @@ namespace CountAndCatch
 
                 if (File.Exists(fullPath))
                 {
-                    File.Delete(fullPath);
-                    LoadFiles();
+                    DialogResult result = MessageBox.Show(
+                        "¿Seguro que quieres eliminar este archivo?",
+                        "Confirmar eliminación",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Warning
+                    );
+
+                    if (result == DialogResult.Yes)
+                    {
+                        File.Delete(fullPath);
+                        LoadFiles();
+                    }
                 }
             }
+            else
+            {
+                MessageBox.Show(
+                    "Selecciona un archivo para eliminar.",
+                    "Información",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information
+                );
+            }
         }
+
 
 
         private void buttonRenombrar_Click(object sender, EventArgs e)
@@ -133,6 +156,54 @@ namespace CountAndCatch
                 }
             }
         }
+        private void buttonFiltrar_Click(object sender, EventArgs e)
+        {
+            bool hayDatosCargados = listaOriginal != null && listaOriginal.Count > 0;
+
+            if (hayDatosCargados)
+            {
+                using (var dlg = new FormFiltrar())
+                {
+                    DialogResult result = dlg.ShowDialog();
+
+                    if (result == DialogResult.OK)
+                    {
+                        if (dlg.QuitarFiltro)
+                        {
+                            dataGridViewJson.DataSource = new List<Partida>(listaOriginal);
+                        }
+                        else
+                        {
+                            IEnumerable<Partida> query = listaOriginal;
+
+                            if (dlg.JuegoSeleccionado.HasValue)
+                            {
+                                int juego = dlg.JuegoSeleccionado.Value;
+                                query = query.Where(p => p.juego == juego);
+                            }
+
+                            bool hayDificultades = dlg.DificultadesSeleccionadas != null
+                                                   && dlg.DificultadesSeleccionadas.Count > 0;
+
+                            if (hayDificultades)
+                            {
+                                List<int> difs = dlg.DificultadesSeleccionadas;
+                                query = query.Where(p => difs.Contains(p.dificultad));
+                            }
+
+                            List<Partida> filtradas = query.ToList();
+                            dataGridViewJson.DataSource = filtradas;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("No hay datos cargados para filtrar.");
+            }
+        }
+
+
 
 
         private void LoadFiles()
@@ -331,8 +402,6 @@ namespace CountAndCatch
         {
             buttonExportar.BackgroundImage = Properties.Resources.btnGuardar;
         }
-
-
     }
 
 }

@@ -13,8 +13,10 @@ namespace CountAndCatch
         public int tiempo_partida { get; set; }
         public int errores { get; set; }
         public int puntos { get; set; }
-        public string fecha { get; set; }
+        public string fecha_hora { get; set; }
         public int juego { get; set; }
         public int dificultad { get; set; }
+
+        public int terminada { get; set; }
     }
 }

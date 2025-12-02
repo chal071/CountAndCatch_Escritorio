@@ -44,6 +44,7 @@ namespace CountAndCatch
             listViewFiles.Columns[0].Width = (int)(w * 0.4);
             listViewFiles.Columns[1].Width = (int)(w * 0.2);
             listViewFiles.Columns[2].Width = (int)(w * 0.4); 
+
         }
 
         
@@ -265,7 +266,7 @@ namespace CountAndCatch
 
                 if (esListaValida)
                 {
-                    bool camposInvalidos = lista.Any(p => p.nombre == null || p.fecha == null);
+                    bool camposInvalidos = lista.Any(p => p.nombre == null || p.fecha_hora == null);
 
                     if (!camposInvalidos)
                     {
@@ -320,8 +321,91 @@ namespace CountAndCatch
             lst.DefaultCellStyle.SelectionForeColor = Color.White;
             lst.RowHeadersVisible = false;
             lst.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
+            lst.CellFormatting += dataGridViewJson_CellFormatting;
         }
+
+        private void dataGridViewJson_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (dataGridViewJson.Columns[e.ColumnIndex].Name == "juego" && e.Value != null)
+            {
+                int juego;
+                bool parsed = int.TryParse(e.Value.ToString(), out juego);
+
+                if (parsed)
+                {
+                    if (juego == 1)
+                    {
+                        e.Value = "Juego Count";
+                        e.FormattingApplied = true;
+                    }
+                    else
+                    {
+                        if (juego == 2)
+                        {
+                            e.Value = "Juego Catch";
+                            e.FormattingApplied = true;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if (dataGridViewJson.Columns[e.ColumnIndex].Name == "dificultad" && e.Value != null)
+                {
+                    int dif;
+                    bool parsed = int.TryParse(e.Value.ToString(), out dif);
+
+                    if (parsed)
+                    {
+                        if (dif == 1)
+                        {
+                            e.Value = "Fácil";
+                        }
+                        else
+                        {
+                            if (dif == 2)
+                            {
+                                e.Value = "Intermedio";
+                            }
+                            else
+                            {
+                                if (dif == 3)
+                                {
+                                    e.Value = "Difícil";
+                                }
+                            }
+                        }
+
+                        e.FormattingApplied = true;
+                    }
+                }
+                else
+                {
+                    if (dataGridViewJson.Columns[e.ColumnIndex].Name == "terminada" && e.Value != null)
+                    {
+                        int terminado;
+                        bool parsed = int.TryParse(e.Value.ToString(), out terminado);
+
+                        if (parsed)
+                        {
+                            if (terminado == 1)
+                            {
+                                e.Value = "Terminado";
+                            }
+                            else
+                            {
+                                e.Value = "No terminado";
+                            }
+
+                            e.FormattingApplied = true;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
         private void buttonExportar_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(currentJsonPath))

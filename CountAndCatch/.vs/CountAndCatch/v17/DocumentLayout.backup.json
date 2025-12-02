@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formfiltrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\countandcatch\\formrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\formrenombrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|c:\\users\\chaox\\documents\\github\\countandcatch_escritorio\\countandcatch\\countandcatch\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15FCD4-8199-4420-8158-9206010ADD4A}|CountAndCatch\\CountAndCatch.csproj|solutionrelative:countandcatch\\partida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,19 +54,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Partida.cs",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Partida.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\Partida.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\Partida.cs",
+              "RelativeToolTip": "CountAndCatch\\Partida.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T15:48:49.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs*",
+              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs*",
+              "ViewState": "AgIAAGcBAAAAAAAAAAAswH8BAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:02:26.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CountAndCatch\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "CountAndCatch\\FormPrincipal.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T16:02:22.965Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormRenombrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormRenombrar.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormRenombrar.cs",
-              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormRenombrar.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "CountAndCatch\\FormRenombrar.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormRenombrar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CountAndCatch\\FormRenombrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T15:57:07.574Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormFiltrar.cs",
               "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormFiltrar.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormFiltrar.cs",
@@ -67,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormFiltrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\chaox\\Documents\\GitHub\\CountAndCatch_Escritorio\\CountAndCatch\\CountAndCatch\\FormFiltrar.cs",
               "RelativeDocumentMoniker": "CountAndCatch\\FormFiltrar.cs",

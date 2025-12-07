@@ -175,12 +175,12 @@ namespace CountAndCatch
                         }
                         else
                         {
-                            IEnumerable<Partida> query = listaOriginal;
+                            List<Partida> query = new List<Partida>(listaOriginal);
 
                             if (dlg.JuegoSeleccionado.HasValue)
                             {
                                 int juego = dlg.JuegoSeleccionado.Value;
-                                query = query.Where(p => p.juego == juego);
+                                query = query.Where(p => p.juego == juego).ToList();
                             }
 
                             bool hayDificultades = dlg.DificultadesSeleccionadas != null
@@ -189,10 +189,10 @@ namespace CountAndCatch
                             if (hayDificultades)
                             {
                                 List<int> difs = dlg.DificultadesSeleccionadas;
-                                query = query.Where(p => difs.Contains(p.dificultad));
+                                query = query.Where(p => difs.Contains(p.dificultad)).ToList();
                             }
 
-                            List<Partida> filtradas = query.ToList();
+                            List<Partida> filtradas = query;
                             dataGridViewJson.DataSource = filtradas;
                         }
                     }

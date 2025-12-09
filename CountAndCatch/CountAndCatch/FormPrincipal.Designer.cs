@@ -51,22 +51,22 @@
             this.grid.BackColor = System.Drawing.Color.White;
             this.grid.BackgroundImage = global::CountAndCatch.Properties.Resources.bginicio;
             this.grid.ColumnCount = 6;
-            this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.523809F));
+            this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.761905F));
             this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.04762F));
             this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.04762F));
             this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.04762F));
             this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.04762F));
-            this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
+            this.grid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.04762F));
             this.grid.Controls.Add(this.buttonRenombrar, 4, 0);
             this.grid.Controls.Add(this.buttonEliminar, 3, 0);
             this.grid.Controls.Add(this.buttonJson, 2, 0);
             this.grid.Controls.Add(this.buttonDirecoty, 1, 0);
             this.grid.Controls.Add(this.listViewFiles, 0, 1);
-            this.grid.Controls.Add(this.dataGridViewJson, 2, 2);
-            this.grid.Controls.Add(this.buttonFiltrar, 5, 1);
             this.grid.Controls.Add(this.buttonExportar, 5, 3);
             this.grid.Controls.Add(this.pictureBoxLogo, 0, 0);
             this.grid.Controls.Add(this.pictureBoxCat, 4, 3);
+            this.grid.Controls.Add(this.buttonFiltrar, 5, 0);
+            this.grid.Controls.Add(this.dataGridViewJson, 2, 1);
             this.grid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grid.Location = new System.Drawing.Point(0, 0);
             this.grid.Name = "grid";
@@ -89,7 +89,7 @@
             this.buttonRenombrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonRenombrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRenombrar.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonRenombrar.Location = new System.Drawing.Point(1109, 0);
+            this.buttonRenombrar.Location = new System.Drawing.Point(1030, 0);
             this.buttonRenombrar.Margin = new System.Windows.Forms.Padding(0);
             this.buttonRenombrar.Name = "buttonRenombrar";
             this.buttonRenombrar.Size = new System.Drawing.Size(317, 98);
@@ -110,7 +110,7 @@
             this.buttonEliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEliminar.ForeColor = System.Drawing.Color.White;
-            this.buttonEliminar.Location = new System.Drawing.Point(792, 0);
+            this.buttonEliminar.Location = new System.Drawing.Point(713, 0);
             this.buttonEliminar.Margin = new System.Windows.Forms.Padding(0);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(317, 98);
@@ -131,7 +131,7 @@
             this.buttonJson.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonJson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonJson.ForeColor = System.Drawing.Color.White;
-            this.buttonJson.Location = new System.Drawing.Point(475, 0);
+            this.buttonJson.Location = new System.Drawing.Point(396, 0);
             this.buttonJson.Margin = new System.Windows.Forms.Padding(0);
             this.buttonJson.Name = "buttonJson";
             this.buttonJson.Size = new System.Drawing.Size(317, 98);
@@ -152,7 +152,7 @@
             this.buttonDirecoty.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonDirecoty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDirecoty.ForeColor = System.Drawing.Color.Transparent;
-            this.buttonDirecoty.Location = new System.Drawing.Point(158, 0);
+            this.buttonDirecoty.Location = new System.Drawing.Point(79, 0);
             this.buttonDirecoty.Margin = new System.Windows.Forms.Padding(0);
             this.buttonDirecoty.Name = "buttonDirecoty";
             this.buttonDirecoty.Size = new System.Drawing.Size(317, 98);
@@ -172,7 +172,7 @@
             this.listViewFiles.MultiSelect = false;
             this.listViewFiles.Name = "listViewFiles";
             this.grid.SetRowSpan(this.listViewFiles, 3);
-            this.listViewFiles.Size = new System.Drawing.Size(469, 885);
+            this.listViewFiles.Size = new System.Drawing.Size(390, 885);
             this.listViewFiles.TabIndex = 5;
             this.listViewFiles.UseCompatibleStateImageBehavior = false;
             this.listViewFiles.View = System.Windows.Forms.View.Details;
@@ -183,16 +183,18 @@
             this.dataGridViewJson.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grid.SetColumnSpan(this.dataGridViewJson, 4);
             this.dataGridViewJson.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewJson.Location = new System.Drawing.Point(478, 199);
+            this.dataGridViewJson.Location = new System.Drawing.Point(399, 101);
             this.dataGridViewJson.Name = "dataGridViewJson";
             this.dataGridViewJson.RowHeadersVisible = false;
             this.dataGridViewJson.RowHeadersWidth = 82;
+            this.grid.SetRowSpan(this.dataGridViewJson, 2);
             this.dataGridViewJson.RowTemplate.Height = 33;
-            this.dataGridViewJson.Size = new System.Drawing.Size(1185, 686);
+            this.dataGridViewJson.Size = new System.Drawing.Size(1264, 784);
             this.dataGridViewJson.TabIndex = 6;
             // 
             // buttonFiltrar
             // 
+            this.buttonFiltrar.AutoSize = true;
             this.buttonFiltrar.BackColor = System.Drawing.Color.Transparent;
             this.buttonFiltrar.BackgroundImage = global::CountAndCatch.Properties.Resources.btnFiltrar;
             this.buttonFiltrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -202,10 +204,10 @@
             this.buttonFiltrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFiltrar.ForeColor = System.Drawing.Color.White;
-            this.buttonFiltrar.Location = new System.Drawing.Point(1426, 98);
+            this.buttonFiltrar.Location = new System.Drawing.Point(1347, 0);
             this.buttonFiltrar.Margin = new System.Windows.Forms.Padding(0);
             this.buttonFiltrar.Name = "buttonFiltrar";
-            this.buttonFiltrar.Size = new System.Drawing.Size(240, 98);
+            this.buttonFiltrar.Size = new System.Drawing.Size(319, 98);
             this.buttonFiltrar.TabIndex = 7;
             this.buttonFiltrar.UseVisualStyleBackColor = false;
             this.buttonFiltrar.Click += new System.EventHandler(this.buttonFiltrar_Click);
@@ -223,10 +225,10 @@
             this.buttonExportar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.buttonExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExportar.ForeColor = System.Drawing.Color.White;
-            this.buttonExportar.Location = new System.Drawing.Point(1426, 888);
+            this.buttonExportar.Location = new System.Drawing.Point(1347, 888);
             this.buttonExportar.Margin = new System.Windows.Forms.Padding(0);
             this.buttonExportar.Name = "buttonExportar";
-            this.buttonExportar.Size = new System.Drawing.Size(240, 101);
+            this.buttonExportar.Size = new System.Drawing.Size(319, 101);
             this.buttonExportar.TabIndex = 8;
             this.buttonExportar.UseVisualStyleBackColor = false;
             this.buttonExportar.Click += new System.EventHandler(this.buttonExportar_Click);
@@ -240,7 +242,7 @@
             this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxLogo.Location = new System.Drawing.Point(3, 3);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(152, 92);
+            this.pictureBoxLogo.Size = new System.Drawing.Size(73, 92);
             this.pictureBoxLogo.TabIndex = 9;
             this.pictureBoxLogo.TabStop = false;
             // 
@@ -250,7 +252,7 @@
             this.pictureBoxCat.BackgroundImage = global::CountAndCatch.Properties.Resources.imageCat;
             this.pictureBoxCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxCat.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxCat.Location = new System.Drawing.Point(1112, 891);
+            this.pictureBoxCat.Location = new System.Drawing.Point(1033, 891);
             this.pictureBoxCat.Name = "pictureBoxCat";
             this.pictureBoxCat.Size = new System.Drawing.Size(311, 95);
             this.pictureBoxCat.TabIndex = 10;
@@ -270,6 +272,7 @@
             this.Text = "Count & Catch";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.grid.ResumeLayout(false);
+            this.grid.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewJson)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCat)).EndInit();
